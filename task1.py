@@ -10,15 +10,9 @@ coins = []
 for i in range(n):
     coins.append(randint(0, 1))
 print(coins)
+
 coins_0 = coins.count(0)
 coins_1 = coins.count(1)
-# for ele in coins:
-#     if coins[index] == 0:
-#         coins_0 += 1
-#         index += 1
-#     elif coins[index] == 1:
-#         coins_1 += 1
-#         index += 1
 
 if coins_0 > coins_1:
     print(f"\n{coins_1}")
